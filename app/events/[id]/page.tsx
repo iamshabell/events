@@ -32,6 +32,7 @@ interface Participant {
   name: string
   status: "pending" | "accepted" | "declined" | "checked-in"
   invitation_token: string
+  qr_code_data: string
   created_at: string
 }
 
